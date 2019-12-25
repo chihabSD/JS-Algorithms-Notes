@@ -1,11 +1,11 @@
-/**
- * 
+/*
+ *
  * Write a function that calculates the sum of all numbers from 1 up to and including the number n
  */
 
 //  Solution 1
-let total = 0;
 const  sumSolution1 = (n) => {
+    let total = 0;
 for (let i = 0; i <= n; i++) {
     total += i;
 }
@@ -19,9 +19,9 @@ const sumSolution2 =(n) => {
 
 //  Using timing 
 /**
- * different machines will record different times
+ * different machines will record different times, dependant on specification of the machine
  * the same machine will record different times!
- * for faster algoritms, speed measurements many not be precise 
+ * for faster Algorithms, speed measurements many not be precise 
  * 
  * For example using
  * let t1 = preformance.now()
@@ -29,7 +29,7 @@ const sumSolution2 =(n) => {
 
 //  Using operation computation
 /**
- *  Time is determined by the operation type
+ *  Time is determined by the operation type in which it will remain constant
  * for example: 
  * in solution2, we have 1 mult, 1 add and 1 div 
  * so there are 3 calculation only
